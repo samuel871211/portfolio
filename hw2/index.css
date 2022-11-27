@@ -17,14 +17,17 @@
   justify-content: flex-end;
 }
 .buttonGroup {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
 }
 .buttonGroup button {
-  width: calc((100% - 24px) / 4);
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 24px;
   font-weight: bold;
+}
+.buttonGroup .zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
