@@ -1,0 +1,30 @@
+/* .container {
+
+} */
+#result {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 50px;
+  line-height: 1;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.buttonGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.buttonGroup button {
+  width: calc((100% - 24px) / 4);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
