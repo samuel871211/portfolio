@@ -1,3 +1,13 @@
+const htmlEl = document.documentElement;
+htmlEl.addEventListener('keyup', test);
+function test (e) {
+  switch (e.key.toLowerCase()) {
+    case '0':
+      console.log('0')
+    case '1':
+      console.log('1')
+  }
+}
 const resultEl = document.getElementById('result');
 let resultStr = '';
 
