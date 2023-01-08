@@ -1,0 +1,43 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+.section4 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  background-color: bisque;
+}
+.section4 .temp {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+/* PC */
+@media screen and (min-width: 1280px) {
+  .temp {
+    width: 25%;
+  }
+}
+
+/* Mini PC */
+@media screen and (min-width: 1024px) and (max-width: 1279.9px){
+  .temp {
+    width: 25%;
+  }
+}
+
+/* 768 ~ 1024 pad */
+@media screen and (min-width: 768px) and (max-width: 1023.9px){
+  .temp {
+    width: 50%;
+  }
+}
+
+/* 768以下 mob */
+@media screen and (max-width: 767.9px) {
+  .temp {
+    width: 100%;
+  }
+}
