@@ -15,3 +15,6 @@ wireframe
 
 # hw6
 [wireframe刻成網頁](https://samuel871211.github.io/tt-training/hw6/)
+
+# hw7
+[header123變成132](https://samuel871211.github.io/tt-training/hw7/)
